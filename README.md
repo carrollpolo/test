@@ -37,4 +37,4 @@
 出现了下列问题,因为推送到了错误的分支(事实上,我的GitHub远程分支只有`master`)
 ![alt text](https://github.com/carrollpolo/test/blob/tree/master/images/image-3.png)
 我们可以使用`git branch`查看远程仓库的分支，避免推送失败
-
+![alt text](image.png)
