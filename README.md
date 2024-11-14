@@ -15,17 +15,17 @@
 
 #### 2. 将文件添加到`staging area`,以便为下一次提交`commit`做准备
 使用`git add .`推送所有的文件到本地仓库的暂缓区(staging area)，或者使用`git add **.cpp`推送某个特定的文件到本地仓库的暂缓区(staging area)。
-![alt text](https://github.com/carrollpolo/test/tree/master./images/image-1.png)
+![alt text](https://github.com/carrollpolo/test/tree/master/images/image-1.png)
 
 #### 3. 输入本次的提交说明,提交更改到本地仓库
 `git commit -m "任意的提交信息"`将提交更改到本地仓库
-![alt text](https://github.com/carrollpolo/test/tree/master./images/image-2.png)
+![alt text](https://github.com/carrollpolo/test/tree/master/images/image-2.png)
 
 #### 4. 关联GitHub仓库
 在`GitHub`中新建一个`repository`,复制仓库地址
-![alt text](https://github.com/carrollpolo/test/tree/master./images/屏幕截图%202024-11-14%20114939.png)
-![alt text](https://github.com/carrollpolo/test/tree/master./images/屏幕截图%202024-11-14%20115157.png)
-![alt text](https://github.com/carrollpolo/test/tree/master./images/屏幕截图%202024-11-14%20115234.png)
+![alt text](https://github.com/carrollpolo/test/tree/master/images/屏幕截图%202024-11-14%20114939.png)
+![alt text](https://github.com/carrollpolo/test/tree/master/images/屏幕截图%202024-11-14%20115157.png)
+![alt text](https://github.com/carrollpolo/test/tree/master/images/屏幕截图%202024-11-14%20115234.png)
 
 在本地仓库中，使用`git remote add`命令将远程仓库链接到本地仓库
     git remote add origin https://github.com/carrollpolo/test.git
@@ -35,6 +35,6 @@
     git push -u origin main
 
 出现了下列问题,因为推送到了错误的分支(事实上,我的GitHub远程分支只有`master`)
-![alt text](https://github.com/carrollpolo/test/tree/master./images/image-3.png)
+![alt text](https://github.com/carrollpolo/test/tree/master/images/image-3.png)
 我们可以使用`git branch`查看远程仓库的分支，避免推送失败
 
