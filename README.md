@@ -28,7 +28,9 @@
 ![alt text](https://github.com/carrollpolo/test/blob/master/images/image6.png)
 
 在本地仓库中，使用`git remote add`命令将远程仓库链接到本地仓库
+    
     git remote add origin https://github.com/carrollpolo/test.git
+    
 #### 5. 将本地仓库推送到GitHub服务器
 `git push`将本地仓库更改推送到远程仓库
 
@@ -37,4 +39,4 @@
 出现了下列问题,因为推送到了错误的分支(事实上,我的GitHub远程分支只有`master`)
 ![alt text](https://github.com/carrollpolo/test/blob/master/images/image3.png)
 我们可以使用`git branch`查看远程仓库的分支，避免推送失败
-![alt text](https://github.com/carrollpolo/test/blob/master/images/image7.png)
+
