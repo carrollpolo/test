@@ -23,9 +23,9 @@
 
 #### 4. 关联GitHub仓库
 在`GitHub`中新建一个`repository`,复制仓库地址
-![alt text](https://github.com/carrollpolo/test/blob/master/images/image3.png)
 ![alt text](https://github.com/carrollpolo/test/blob/master/images/image4.png)
 ![alt text](https://github.com/carrollpolo/test/blob/master/images/image5.png)
+![alt text](https://github.com/carrollpolo/test/blob/master/images/image6.png)
 
 在本地仓库中，使用`git remote add`命令将远程仓库链接到本地仓库
     git remote add origin https://github.com/carrollpolo/test.git
@@ -35,6 +35,6 @@
     git push -u origin main
 
 出现了下列问题,因为推送到了错误的分支(事实上,我的GitHub远程分支只有`master`)
-![alt text](https://github.com/carrollpolo/test/blob/master/images/image6.png)
+![alt text](https://github.com/carrollpolo/test/blob/master/images/image3.png)
 我们可以使用`git branch`查看远程仓库的分支，避免推送失败
 ![alt text](https://github.com/carrollpolo/test/blob/master/images/image7.png)
